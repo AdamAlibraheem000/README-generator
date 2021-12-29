@@ -21,6 +21,44 @@ const questions = () => {
     },
     {
       type: "input",
+      message: "What is your github username?",
+      name: "github",
+      validate: (githubValid) => {
+        if (githubValid) {
+          return true;
+        } else {
+          console.log("github username required");
+          return false;
+        }
+      },
+    },
+    {
+      type: "input",
+      message: "What is your email address?",
+      name: "email",
+      validate: (emailValid) => {
+        if (emailValid) {
+          return true;
+        } else {
+          console.log("email address required");
+          return false;
+        }
+      },
+    },
+    {
+      type: "checkbox",
+      name: "licenses",
+      message: "Choose from list of licenses to apply? (Check all that apply)",
+      choices: [
+        "Academic Free License v3.0",
+        "Apache license 2.0",
+        "Artistic license 2.0",
+        "Boost Software license 1.0",
+        "BSD 2-clause",
+      ],
+    },
+    {
+      type: "input",
       message: "Add installation instructions",
       name: "installation",
       validate: (installValid) => {
