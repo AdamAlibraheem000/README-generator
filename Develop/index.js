@@ -62,6 +62,19 @@ const questions = () => {
       },
       {
         type: "input",
+        message: "Add description",
+        name: "description",
+        validate: (descValid) => {
+          if (descValid) {
+            return true;
+          } else {
+            console.log("description required");
+            return false;
+          }
+        },
+      },
+      {
+        type: "input",
         message: "Add installation instructions",
         name: "installation",
         validate: (installValid) => {
