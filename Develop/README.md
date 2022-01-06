@@ -1,6 +1,6 @@
- Project Title: Goat chz
+ Project Title: hello
 
-  Badge: Artistic license 2.0 [![License Badge](https://img.shields.io/github/license/adamalibraheem000/Goat chz.svg?)](https://github.com/adamalibraheem000/Goat chz/blob/main/LICENSE.txt)
+  Badge: Apache license 2.0 [![License Badge](https://img.shields.io/github/license/goodmorning/hello.svg?)](https://github.com/goodmorning/hello/blob/main/LICENSE.txt)
   
   
   Table of Contents:
@@ -12,18 +12,18 @@
       [Tests](#Tests)
       [Questions](#Questions)
 
-  #Description: it's really good
+  #Description: its good 
 
-  #Installation: plug it in
+  #Installation: turn it on
 
-  #Usage Informtaion: turn it on
+  #Usage Informtaion: plug it in
 
-  #Contribution guidelines: do as you like
+  #Contribution guidelines: good to see you
 
-  #Testing Information: enjoy yourself
+  #Testing Information: i like ice cream
 
   #Questions:
-  Github username: adamalibraheem000
+  Github username: goodmorning
   
-  email: https://www.adamalibraheem@aol.com
+  email: https://www.whatever
 
