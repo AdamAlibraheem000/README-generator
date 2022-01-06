@@ -31,16 +31,17 @@ function renderLicenseSection(data) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return ` Project Title: ${data.title}
-  ${renderLicenseSection(data)}
+
+  Badge: ${renderLicenseSection(data)}
   
   Table of Contents:
-  -[Description](#Description)
-  -[Installation](#Installation)
-  -[Usage](#Usage)
-  -[License](#License)
-  -[Contributing](#Contributing)
-  -[Tests](#Tests)
-  -[Questions](#Questions)
+      [Description](#Description)
+      [Installation](#Installation)
+      [Usage](#Usage)
+      [License](#License)
+      [Contributing](#Contributing)
+      [Tests](#Tests)
+      [Questions](#Questions)
 
   #Description: ${data.description}
 
@@ -54,6 +55,7 @@ function generateMarkdown(data) {
 
   #Questions:
   Github username: ${data.github}
+  
   email: https://www.${data.email}
 
 `;
